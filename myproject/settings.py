@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Allow form posts through the Skills Network lab proxy
+CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
+
 
 # Application definition
 
